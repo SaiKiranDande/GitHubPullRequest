@@ -51,6 +51,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginStart="16dp"
             android:maxLines="1"
+            android:inputType="text"
             android:imeOptions="actionNext"
             android:layout_marginEnd="16dp"
             android:hint="Owner Name"/>
@@ -62,6 +63,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
             android:maxLines="1"
+            android:inputType="text"
             android:imeOptions="actionDone"
             android:layout_marginEnd="16dp"
             android:hint="Owner Repo"/>
