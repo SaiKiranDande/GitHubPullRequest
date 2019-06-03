@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Use AppTheme as parent for full screen-->
+    <style name="NewActivityDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowMinWidthMajor">94%</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowMinWidthMinor">94%</item>
+    </style>
+
+    <style name="DetailsDialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:keyPreviewHeight">40dp</item>
+        <item name="android:listPreferredItemHeight">40dp</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_close</item>
+    </style>
+
+</resources>
